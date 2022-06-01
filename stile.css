@@ -58,6 +58,26 @@ h1{
 body{
     margin: 0;
 }
+.piè{
+    background-color: #ffde00;
+    display: flex;
+    min-height: 30vh;
+    flex-direction: column;
+    
+}
+.fondopagina{
+    background-color: #000000;
+    display: flex;
+    min-height: 5vh;
+}
+.piè h3 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.piè p{
+    margin-left: 20px;
+    margin-top: -10px;
+}
 
 
 

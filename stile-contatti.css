@@ -1,0 +1,32 @@
+.menu a{
+    color: #000000;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 20px;
+    
+}
+.menu {
+    display: flex;
+    justify-content: end;
+    background-color: #ffde00;
+
+}
+
+h2{
+    text-align:center;
+    margin-top: 0;
+}
+
+h1{
+    text-align: center;
+}
+.div1{
+    background-color:#ffde00; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+body{
+    margin: 0;
+}
