@@ -30,3 +30,65 @@ h1{
 body{
     margin: 0;
 }
+.sfondo{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("immagini/sfondo-contatti.jpg");
+    background-position: center center;
+    background-size: cover;
+    min-height: 60vh;
+    color:orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sfondo h3{
+   text-align: center;
+}
+.sfondo img{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.piè{
+    display: flex;
+    min-height: 30vh;
+    flex-direction: column;
+    
+}
+.fondopagina{
+    background-color: darkgray;
+    display: flex;
+    min-height: 10vh;
+    justify-content: center;
+    align-items: center;
+    }
+.piè h3 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.piè p{
+    margin-left: 20px;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+.piè i{
+    margin-left: 20px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+.divprincipale{
+    display: flex;
+    background-color: #ffde00;
+    justify-content: center;
+}
+.piè2{
+    margin-left: 100px;
+}
+.fondopagina p{
+    margin-right: 100px;
+}
+.piè3{
+    margin-left: 60px;
+    
+}
+.fondopagina img{
+    margin-right: 20px;
+}

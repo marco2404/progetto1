@@ -59,17 +59,18 @@ body{
     margin: 0;
 }
 .piè{
-    background-color: #ffde00;
     display: flex;
     min-height: 30vh;
     flex-direction: column;
     
 }
 .fondopagina{
-    background-color: #000000;
+    background-color: darkgray;
     display: flex;
-    min-height: 5vh;
-}
+    min-height: 10vh;
+    justify-content: center;
+    align-items: center;
+    }
 .piè h3 {
     margin-left: 20px;
     margin-top: 20px;
@@ -77,7 +78,30 @@ body{
 .piè p{
     margin-left: 20px;
     margin-top: -10px;
+    margin-bottom: 50px;
 }
-
+.piè i{
+    margin-left: 20px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+.divprincipale{
+    display: flex;
+    background-color: #ffde00;
+    justify-content: center;
+}
+.piè2{
+    margin-left: 100px;
+}
+.fondopagina p{
+    margin-right: 100px;
+}
+.piè3{
+    margin-left: 60px;
+    
+}
+.fondopagina img{
+    margin-right: 20px;
+}
 
 

@@ -13,7 +13,7 @@
 }
 
 h2{
-    text-align:center;
+    text-align: center;
     margin-top: 0;
 }
 
@@ -33,8 +33,68 @@ body{
 .sfondo{
     background-position: center center;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 60vh;
     background-color:rgb(255, 255, 255);
     display: flex;
     justify-content: center;
+}
+.sfondo{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("immagini/sfondo-chi-siamo.jpg");
+    background-position: center center;
+    background-size: cover;
+    min-height: 60vh;
+    color:orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sfondo h3{
+    text-align: center;
+    color:gold;
+}
+
+.piè{
+    display: flex;
+    min-height: 30vh;
+    flex-direction: column;
+    
+}
+.fondopagina{
+    background-color: darkgray;
+    display: flex;
+    min-height: 10vh;
+    justify-content: center;
+    align-items: center;
+    }
+.piè h3 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.piè p{
+    margin-left: 20px;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+.piè i{
+    margin-left: 20px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+.divprincipale{
+    display: flex;
+    background-color: #ffde00;
+    justify-content: center;
+}
+.piè2{
+    margin-left: 100px;
+}
+.fondopagina p{
+    margin-right: 100px;
+}
+.piè3{
+    margin-left: 60px;
+    
+}
+.fondopagina img{
+    margin-right: 20px;
 }
